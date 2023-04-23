@@ -36,3 +36,9 @@ flutter create --platforms ios,android --project-name firebase_cloud_messaging .
     ```bash
     flutterfire configure
     ```
+
+## アプリケーション起動
+
+```bash
+flutter run
+```
