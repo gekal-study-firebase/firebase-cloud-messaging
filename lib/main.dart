@@ -1,6 +1,7 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'firebase_options.dart';
 
@@ -63,9 +64,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String _fcmToken = "";
+  String _fcmToken = "not set";
 
-  Future<void> _incrementCounter() async {
+  Future<void> _showFcmToken() async {
     final fcmToken = await FirebaseMessaging.instance.getToken();
     setState(() {
       if (fcmToken != null) {
@@ -85,17 +86,19 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'token:',
-            ),
-            Text(
-              _fcmToken,
+            ElevatedButton(
+              child: Text(_fcmToken),
+              onPressed: () {
+                Clipboard.setData(ClipboardData(text: _fcmToken)).then(
+                    (value) =>
+                        {Fluttertoast.showToast(msg: 'Copied to Clipboard')});
+              },
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: _showFcmToken,
         tooltip: 'Increment',
         child: const Icon(Icons.token),
       ),
