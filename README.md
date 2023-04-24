@@ -22,7 +22,7 @@ flutter create --platforms ios,android --project-name firebase_cloud_messaging .
     dart pub global activate flutterfire_cli
     ```
 
-3. アプリで Firebase を初期化する
+2. アプリで Firebase を初期化する
 
     ```bash
     flutter pub add firebase_core
@@ -31,7 +31,7 @@ flutter create --platforms ios,android --project-name firebase_cloud_messaging .
     flutter pub add flutter_local_notifications
     ```
 
-4. Firebase を使用するようにアプリを構成する
+3. Firebase を使用するようにアプリを構成する
 
     ```bash
     flutterfire configure
