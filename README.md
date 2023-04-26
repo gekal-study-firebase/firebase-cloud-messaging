@@ -3,7 +3,7 @@
 ## プロジェクト作成
 
 ```bash
-flutter create --platforms ios,android --project-name firebase_cloud_messaging .
+flutter create --platforms ios,android --org cn.gekal.example --project-name firebase_cloud_messaging .
 ```
 
 ## クラウドメッセージング
