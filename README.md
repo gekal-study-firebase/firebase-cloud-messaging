@@ -22,7 +22,8 @@ flutter create --platforms ios,android --project-name firebase_cloud_messaging .
 
     # Ref: https://pub.dev/packages/flutterfire_cli
     # 必要によて、PATHを変更してください。
-    #     export PATH="$PATH":"$HOME/.pub-cache/bin"
+    #   Windows: Pathに `%LOCALAPPDATA%\Pub\Cache\bin` を追加ください。
+    #   Mac/Linux: `export PATH="$PATH":"$HOME/.pub-cache/bin"`
     dart pub global activate flutterfire_cli
     ```
 
