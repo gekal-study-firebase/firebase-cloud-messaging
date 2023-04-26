@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.firebase_cloud_messaging">
+    package="cn.gekal.example.firebase_cloud_messaging">
    <application
         android:label="firebase_cloud_messaging"
         android:name="${applicationName}"
