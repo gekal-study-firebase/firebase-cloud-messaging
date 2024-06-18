@@ -13,7 +13,9 @@
 ## プロジェクト作成
 
 ```bash
-flutter create --platforms ios,android --org cn.gekal.example --project-name firebase_cloud_messaging .
+fvm spawn 3.22.2 create --platforms ios,android --org cn.gekal.example --project-name firebase_cloud_messaging .
+# 管理者権限で実施して、`.fvmrc`を作成できる。
+fvm use 3.22.2
 ```
 
 ## クラウドメッセージング
