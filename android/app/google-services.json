@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "153436998339",
+    "project_id": "gekal-72791",
+    "storage_bucket": "gekal-72791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153436998339:android:5d7edff4ced4b6528bf076",
+        "android_client_info": {
+          "package_name": "cn.gekal.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153436998339-7e4t2fogj2n1ib9ntskgn48o6e9jgpkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9nyK7M7kojW1-xghim_VaRlVVS6mwd3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153436998339-7e4t2fogj2n1ib9ntskgn48o6e9jgpkr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153436998339-9h05onivfcc1rc4le0vi9s4qim7tbnjl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cn.gekal.example.firebaseCloudMessaging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153436998339:android:cbe8a2d1bc3cfde68bf076",
+        "android_client_info": {
+          "package_name": "cn.gekal.example.firebase_cloud_messaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153436998339-7e4t2fogj2n1ib9ntskgn48o6e9jgpkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9nyK7M7kojW1-xghim_VaRlVVS6mwd3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153436998339-7e4t2fogj2n1ib9ntskgn48o6e9jgpkr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153436998339-9h05onivfcc1rc4le0vi9s4qim7tbnjl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cn.gekal.example.firebaseCloudMessaging"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

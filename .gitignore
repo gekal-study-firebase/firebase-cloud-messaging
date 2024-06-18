@@ -44,10 +44,11 @@ app.*.map.json
 /android/app/release
 
 # flutterfire configure
-/lib/firebase_options.dart
-/ios/Runner/GoogleService-Info.plist
-/ios/firebase_app_id_file.json
-/android/app/google-services.json
+# firebase.json
+# /lib/firebase_options.dart
+# /ios/Runner/GoogleService-Info.plist
+# /ios/firebase_app_id_file.json
+# /android/app/google-services.json
 
 # FVM Version Cache
 .fvm/
