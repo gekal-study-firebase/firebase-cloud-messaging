@@ -58,15 +58,23 @@ flutter create --platforms ios,android --org cn.gekal.example --project-name fir
 
 ## アプリケーション起動
 
-```bash
-# エミュレータを確認して起動する。
-flutter emulators
-flutter emulators --launch Pixel_6_Pro_API_33
+1. ライブラリー取得
 
-# アプリケーションを起動する。
-flutter run
+    ```bash
+    flutter pub get
+    ```
 
-# 複数デバイスがある時、デバイスIDを確認して起動してください。
-# flutter devices
-# flutter run --device-id xxxxxx
-```
+2. アプリ起動
+
+    ```bash
+    # エミュレータを確認して起動する。
+    flutter emulators
+    flutter emulators --launch Pixel_6_Pro_API_33
+    
+    # アプリケーションを起動する。
+    flutter run
+    
+    # 複数デバイスがある時、デバイスIDを確認して起動してください。
+    # flutter devices
+    # flutter run --device-id xxxxxx
+    ```
